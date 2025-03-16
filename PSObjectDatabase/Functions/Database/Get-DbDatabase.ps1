@@ -48,13 +48,13 @@ function Get-DbDatabase
         # The database location.
         [Parameter(Mandatory = $false)]
         [System.String]
-        $Location,
+        $Location
 
-        # Option to select a single database (the first matching) and throw an
-        # error if the database does not exist.
-        [Parameter(Mandatory = $false)]
-        [Switch]
-        $Strict
+        # # Option to select a single database (the first matching) and throw an
+        # # error if the database does not exist.
+        # [Parameter(Mandatory = $false)]
+        # [Switch]
+        # $Strict
     )
 
     try

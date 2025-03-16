@@ -50,5 +50,7 @@
     "powershell.codeFormatting.whitespaceBeforeOpenParen": true,
 
     "cSpell.words": [
+        "PSOBJECTDATABASE",
+        "PSOD"
     ]
 }
